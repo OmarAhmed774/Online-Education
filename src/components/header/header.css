@@ -1,0 +1,8 @@
+.navbar-nav .nav-item .nav-link {
+  color: var(--light);
+  font-weight: 700;
+  transition: 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--dark);
+}

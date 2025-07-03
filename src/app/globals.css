@@ -1,0 +1,19 @@
+:root {
+  --dark: #000;
+  --dark-light: #333;
+  --primary: #001642;
+  --light: #454545;
+  --light-2: #ccc;
+  --white: #fff;
+}
+a {
+  text-decoration: none !important;
+}
+ul,
+li {
+  list-style: none;
+}
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
