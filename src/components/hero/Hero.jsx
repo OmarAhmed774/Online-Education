@@ -1,39 +1,23 @@
 import React from "react";
-import Image from "next/image";
-import Link from "next/link";
-import "./hero.css";
 
 export default function Hero() {
   return (
-    <section className="hero-container-section position-relative">
-      <div className="hero-image-wrapper">
-        <Image
-          src="/circle.png"
-          alt="background"
-          fill
-          style={{ objectFit: "cover", zIndex: -1 }}
-          priority
-        />
-      </div>
-
-      <div className="container">
-        <div className="row">
-          <div className="hero-text-center text-center">
-            <h2 className="hero-header p-3">
-              Quality education is a key to your future success
-            </h2>
-            <p className="hero-p p-3">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-            <Link href="/courses">
-              <button className="btn btn-dark m-2 text-white">
-                Explore Courses
-              </button>
-            </Link>
-          </div>
+    <section className="section hero-section">
+      <div className="container text-center">
+        <h1 className="display-5 fw-bold">
+          Unlock Your Potential with Expert-Led Courses
+        </h1>
+        <p className="lead mt-3">
+          Explore a wide range of courses designed to help you achieve your
+          personal and professional goals.
+        </p>
+        <div className="d-flex justify-content-center mt-4">
+          <input
+            type="text"
+            className="form-control w-50 me-2"
+            placeholder="Search for courses"
+          />
+          <button className="btn btn-primary">Search</button>
         </div>
       </div>
     </section>

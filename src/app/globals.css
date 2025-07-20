@@ -1,10 +1,11 @@
 :root {
-  --dark: #000;
-  --dark-light: #333;
-  --primary: #001642;
-  --light: #454545;
-  --light-2: #ccc;
-  --white: #fff;
+  --dark-mode: #101a23;
+  --dark: #1e2a38;
+  --dark-light: #2f3e4e;
+  --primary: #3d98f4;
+  --light: #64748b;
+  --light-2: #e2e8f0;
+  --white: #ffffff;
 }
 a {
   text-decoration: none !important;
