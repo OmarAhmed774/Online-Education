@@ -1,0 +1,27 @@
+/* 🌙 Dark Mode */
+:root[data-bs-theme="dark"] {
+  --bs-body-bg: #121417;
+  --bs-body-color: #e2e8f0;
+  --bs-primary: #3d98f4;
+  --bs-secondary: #64748b;
+  --bs-light: #2f3e4e;
+  --bs-dark: #1e2a38;
+  --bs-border-color: #2f3e4e;
+  --bs-card-bg: #1e2a38;
+  --bs-link-color: #3d98f4;
+  --bs-link-hover-color: #ffffff;
+}
+
+/* ☀️ Light Mode (افتراضي) */
+:root[data-bs-theme="light"] {
+  --bs-body-bg: #ffffff;
+  --bs-body-color: #121417;
+  --bs-primary: #3d98f4;
+  --bs-secondary: #64748b;
+  --bs-light: #e2e8f0;
+  --bs-dark: #1e2a38;
+  --bs-border-color: #e2e8f0;
+  --bs-card-bg: #ffffff;
+  --bs-link-color: #3d98f4;
+  --bs-link-hover-color: #1e2a38;
+}
